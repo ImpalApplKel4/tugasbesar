@@ -1,0 +1,29 @@
+INSERT INTO USER VALUES ('staffgudang','staffgudang','staffgudang','staffgudang');
+
+INSERT INTO USER VALUES ('pemilik','pemilik','pemilik','pemilik');
+
+INSERT INTO USER VALUES ('keuangan','keuangan','keuangan','keuangan');
+
+INSERT INTO USER VALUES ('service','service','service','service');
+
+INSERT INTO PRODUK VALUES ('7','Bakso ikan Goreng',40000,'bakso' );
+
+
+INSERT INTO PRODUK VALUES ('8','Bakso ikan Bakar',50000,'bakso' );
+
+
+INSERT INTO BAHAN VALUES ('1','Bumbu Ikan',100,'03/09/2018');
+
+INSERT INTO BAHAN VALUES ('2','Terigu',200,'02/09/2018');
+
+INSERT INTO BAHAN VALUES ('3','Daging Ikan',80,'01/09/2018');
+
+INSERT INTO KARYAWAN VALUES ('11223345','Cecep',2000000,'08992345356');
+
+INSERT INTO KARYAWAN VALUES ('11273348','Ahmad',2500000,'08978433626');
+
+
+INSERT INTO PEMESANAN VALUES ('1','Atuy','098238795238','jl margahayu no 21','lunas', 100000, '02/09/2018',100000, 'Bakso ikan Bakar','02/09/2018',0);
+
+
+INSERT INTO PENGELUARAN VALUES ('1','Pembayaran listrik bulan desember','01/09/2018',200000 );

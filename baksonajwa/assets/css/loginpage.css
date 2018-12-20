@@ -1,0 +1,101 @@
+body{
+	background-size: cover;
+}
+html,body {
+	height: 100%;
+}
+
+.container-login {
+	vertical-align: middle;
+	width: 100%;  
+	min-height: 100vh;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+  
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	z-index: 1;  
+  }
+  
+.container-login::before {
+	display: block;
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+  }
+
+.form{
+	position: relative;
+	max-width: 480px;
+	padding: 60px;
+	margin: 50px auto 0;
+	text-align: center;
+}
+.form h1{
+	font-size: 65px;
+	font-weight: 700px;
+	color: #ffffff;
+	font-family: "Lato",sans-serif;
+	margin: 0px 0px 20px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.form-group{
+	font-family: "Lato";
+	background: #ffffff;
+	width: 100%;
+	font-size: 18px;
+	padding: 15px;
+	box-sizing: border-box;
+	border : none;
+	border-color: #8F8F8F;
+    padding:0px;
+    margin:0px;
+}
+.form button{
+	font-family: "Lato";
+	background : linear-gradient(rgba(224,224,224,1),rgba(214,214,214,0.5));
+	padding: 15px;
+	width : 100%;
+	margin-top: 25px;
+	border-radius: 20px;
+	font-size: 18px;
+	color : #000000, 0.6;
+	cursor: pointer;
+}
+
+::placeholder{
+	color : #c1c1c1;
+	opacity: 0.5;
+	font-size: 18px;
+}
+
+.username input{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.password input{
+	border-radius: 0px 0px 15px 15px;
+}
+
+#passeye-toggle{
+    position:absolute;
+    right:10px; 
+    top:50%;
+    transform:translate(0,-50%);
+    padding: 2px 7px;
+    font-size:12px;
+  }

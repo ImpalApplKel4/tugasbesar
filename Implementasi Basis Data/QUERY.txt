@@ -1,0 +1,25 @@
+SELECT idPemesanan, namaCust 
+FROM PEMESANAN
+WHERE status = 'lunas';
+
+SELECT namaProduk, tipeProduk, hargaProduk from PRODUK;
+
+SELECT NIK, namaKar, gaji from KARYAWAN;
+
+SELECT idPemesanan, namaCust, jumPiutang
+FROM PEMESANAN
+WHERE status = 'belum lunas';
+
+SELECT namaBahan, stockBahan FROM BAHAN;
+
+SELECT keterangan, hargaPengeluaran FROM PENGELUARAN;
+
+SELECT namaCust, pesanan
+FROM PEMESANAN
+JOIN DETIL_PEMESANAN USING (idPemesanan);
+
+
+SELECT namaProduk, hargaProduk, tipeProduk
+FROM PRODUK;
+
+SELECT * FROM USER;
